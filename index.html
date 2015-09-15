@@ -1,0 +1,378 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<style>
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font: 13px/18px 'Droid Sans', sans-serif;
+
+    }
+
+    .node {
+        border: solid 1px white;
+        font: 10px sans-serif;
+        line-height: 12px;
+        overflow: hidden;
+        position: absolute;
+        text-indent: 2px;
+        border-width: 1px;
+        text-align: center;
+        font-size:12px;
+        line-height: 20px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    #tooltip {
+        position: absolute;
+        width: 220px;
+        height: auto;
+        padding: 10px;
+        background-color: white;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        z-index: 5;
+    }
+
+    #tooltip.hidden {
+        display: none;
+    }
+
+    #tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .d3Range
+    {
+        width : 15%;
+        margin : 20px;
+        vertical-align: center;
+        display: inline-block;
+    }
+
+    #container {height: 100%; width:100%; }
+
+    #color-legend { border-color : black; border-width :1px}
+    .d3Continar
+    {
+        width : 80%;
+        height: 95%;
+        margin : 10px;
+        vertical-align: top;
+        display: inline-block;
+    }
+	
+	.toolFrame
+	{
+	 border-radius: 25px;
+    border: 2px solid #8AC007;
+	 padding: 20px; 
+	 padding-top : 10px;
+	 margin-top : 20px;
+	  font-size: 12px;
+	}
+	
+	.title
+	{
+	  text-align : center;
+	}
+	
+</style>
+<script src="http://www.d3plus.org/js/d3.js"></script>
+<link rel="stylesheet" href="rangeSlider/css/normalize.css" />
+<link rel="stylesheet" href="rangeSlider/css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="rangeSlider/css/ion.rangeSlider.skinModern.css">
+<script src="rangeSlider/js/vendor/jquery-1.11.3.min.js"></script>
+<script src="rangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js"></script>
+<div id="tooltip" class="hidden">
+    <p><strong id="heading"></strong></p>
+    <p><span id="percentage"></span></p>
+    <p><span id="price"></span></p>
+</div>
+
+<div id="container">
+    <div class="d3Range" >
+
+	    <div class="toolFrame">
+        <div id="colorRange">    
+            <h3 class="title"> BA Graduates (Percentage)</h3>        
+            <input id="range1"  ></input>
+        </div>
+		</div>
+		  <div class="toolFrame">
+        <div>
+		 <h3 class="title">AVG Value of apartments (₪/m)</h3>     
+            <input id="range2"  ></input>
+        </div>
+		</div>
+    </div>
+
+    <div class="d3Continar" >
+    </div>
+</div>
+<script>
+   
+   d3.json("http://3dproject-treemap.rhcloud.com", function(sample_data) {
+
+
+        //the color palette
+        var colorPalette = ["#FFCC00", "#FF6600", "#CC0000"];
+        const titleColor = "#6b716c";
+
+        // const
+        var cellSizeName = 'valueApartmentsNormalized';
+        var cellSizeData = 'value of apartments';
+        var cellColor = 'percentage of graduates from BA';
+
+        // gets the size of the treeMap
+        var height = $(".d3Continar").height();
+        var width = $(".d3Continar").width();
+
+        // normalize the apartment value
+        var newData = sample_data.map(function (obj) {
+            obj.valueApartmentsNormalized = Math.pow(obj[cellSizeData], 2);
+        });
+
+        // prepares the max/min value
+        var maxColor = d3.max(sample_data, function (d) {
+            return d[cellColor];
+        });
+        var Color = d3.min(sample_data, function (d) {
+            return d[cellColor];
+        });
+        var maxSize = d3.max(sample_data, function (d) {
+            return d[cellSizeData];
+        });
+        var minSize = d3.min(sample_data, function (d) {
+            return d[cellSizeData];
+        });
+
+        //the treeMapColor
+        var color = d3.scale.linear()
+                .domain([Color, (maxColor + Color) / 2, maxColor])
+                .range(colorPalette);
+        var scale = d3.scale.linear()
+                .domain([Color, maxColor])
+                .range([1.2, -2]);
+
+        var dataFilter =
+        {
+            minPrecentage: Color,
+            maxPrecentage: maxColor,
+            minSize: minSize,
+            maxSize: maxSize,
+        }
+
+        // creates the sliders and color palette
+        $("#range1").ionRangeSlider({
+            type: "double",
+            min: Color,
+            max: maxColor,
+            step: 1,
+            postfix: "%",
+            onFinish: function (data) {
+                dataFilter.minPrecentage = data.from;
+                dataFilter.maxPrecentage = data.to;
+                CalculateAndDraw();
+            }
+        });
+
+        $("#range2").ionRangeSlider({
+            type: "double",
+            min: minSize,
+            max: maxSize,
+            step: 100,
+            prefix: "₪",
+            onFinish: function (data) {
+                dataFilter.minSize = data.from;
+                dataFilter.maxSize = data.to;
+                CalculateAndDraw();
+            }
+        });
+
+        var svg = d3.select("#colorRange").append("svg:svg")
+                .attr("width", "100%")
+                .attr("height", "25px");
+        var gradient = svg.append("svg:defs")
+                .append("svg:linearGradient")
+                .attr("id", "gradient")
+                .attr("x1", "0%")
+                .attr("y1", "100%")
+                .attr("x2", "100%")
+                .attr("y2", "100%");
+
+        gradient.append("svg:stop")
+                .attr("offset", "0%")
+                .attr("stop-color", colorPalette[0])
+                .attr("stop-opacity", 1);
+        gradient.append("svg:stop")
+                .attr("offset", "50%")
+                .attr("stop-color", colorPalette[1])
+                .attr("stop-opacity", 1);
+
+        gradient.append("svg:stop")
+                .attr("offset", "100%")
+                .attr("stop-color", colorPalette[2])
+                .attr("stop-opacity", 1);
+        svg.append("svg:rect")
+                .attr("width", "100%")
+                .attr("height", "25px")
+                .style("fill", "url(#gradient)");
+
+        // map the data by Locality
+        var dataSet = d3.nest().key(function (d) {
+            return d.Locality;
+        }).entries(sample_data);
+
+        // creates the treeMap
+        var treemap = d3.layout.treemap().padding([20, 1, 1, 1])
+                .children(function (x, deep) {
+                    return ( x.values ? x.values : x );
+                })
+                .size([width, height])
+            //.sticky(true)
+                .value(function (d) {
+                    return d[cellSizeName];
+                });
+
+        var div = d3.select(".d3Continar").append("div")
+                .style("position", "relative")
+                .style("width", width + "px")
+                .style("height", height + "px");
+
+
+        // filter the data, map and redraw the treemap
+        function CalculateAndDraw() {
+            // apply filter
+            var dataFiltered = sample_data.filter(function (d) {
+                return (d[cellColor] >= dataFilter.minPrecentage && d[cellColor] <= dataFilter.maxPrecentage &&
+                d[cellSizeData] >= dataFilter.minSize && d[cellSizeData] <= dataFilter.maxSize)
+            });
+            var data = d3.nest().key(function (d) {
+                return d.Locality;
+            }).entries(dataFiltered);
+
+            draw(data);
+        };
+
+
+        function draw(newData) {
+
+            var node = div.datum(newData).selectAll(".node").data(treemap.nodes);
+
+            // enter
+            node.enter().append("div")
+                    .attr("class", "node")
+                    .style("background", getColor)
+                    .style("border-color", setBorder).transition().duration(1).call(position)
+                    .text(function (d) {
+                        return d.values ? d.key : null;
+                    })
+
+            // update
+            node.transition().duration(1000)
+
+                    .attr("class", "node")
+                    .call(position)
+                    .style("background", getColor)
+                    .style("border-color", setBorder)
+                    .text(function (d) {
+                        return d.values ? d.key : null;
+                    });
+
+            // exit
+            node.exit().transition().duration(500).style("width", function (d) {
+                return 0 + "px";
+            })
+                    .style("height", function (d) {
+                        return 0 + "px";
+                    }).remove();
+
+            // apply mouseOver,mouseOut
+            node.on("mousemove", mousemove)
+                    .on("mouseout", mouseout);
+
+
+        }
+
+        // gets the treeMap background color for cell by his data, default color if else
+        function getColor(d) {
+            return d['city symbol'] ? color(d[cellColor]) : titleColor;
+        }
+
+        // gets the treeMap border color for cell by his data, default color if else
+        function setBorder(d) {
+            return d['city symbol'] ? d3.hsl(color(d[cellColor])).darker(1.5) : titleColor;
+        }
+
+        function position() {
+            this.style("left", function (d) {
+                return d.x + "px";
+            })
+                    .style("top", function (d) {
+                        return d.y + "px";
+                    })
+                    .style("width", function (d) {
+                        return Math.max(0, d.dx - 1) + "px";
+                    })
+                    .style("height", function (d) {
+                        return Math.max(0, d.dy - 1) + "px";
+                    });
+        }
+
+
+        // mouseMove behavior
+        var mousemove = function (d) {
+            var xPosition = d3.event.pageX + 20;
+            var yPosition = d3.event.pageY - 50;
+
+            if (d[cellColor] == undefined) {
+                d3.select("#tooltip").classed("hidden", true);
+                return;
+            }
+
+
+            d3.select(this).transition()
+                    .duration(50)
+                    .style("background", "black");
+
+            d3.select("#tooltip")
+                    .style("left", xPosition + "px")
+                    .style("top", yPosition + "px").transition()
+                    .duration(150)
+                    .style("background", getColor(d));
+
+
+            d3.select("#tooltip #heading")
+                    .text("Area symbol : " + d["symbol statistical area"]);
+            d3.select("#tooltip #percentage")
+                    .text(" BA Graduates: " + d[cellColor] + "\n" + "%");
+            d3.select("#tooltip #price")
+                    .text("Value of apartments: " + d[cellSizeData] + " (₪/m)");
+            d3.select("#tooltip").classed("hidden", false);
+        };
+
+        // mouseOut behavior
+        var mouseout = function () {
+            d3.select(this).transition()
+                    .duration(500)
+                    .style("background", getColor);
+
+            d3.select("#tooltip").classed("hidden", true);
+        };
+
+        //main --start from here--
+        draw(dataSet);
+        });
+</script>
