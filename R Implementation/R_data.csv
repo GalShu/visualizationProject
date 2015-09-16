@@ -1,0 +1,900 @@
+Locality,First Degree,Apartment Worth,Poverty Rating,Neighborhood
+Jerusalem,2.5,13598,5,111
+Jerusalem,4,13305,5,112
+Jerusalem,6.3,14869,5,113
+Jerusalem,6,16348,5,114
+Jerusalem,5.8,14398,5,115
+Jerusalem,8.3,14598,5,116
+Jerusalem,14.1,15096,2,121
+Jerusalem,13,13795,2,122
+Jerusalem,15.4,14155,3,123
+Jerusalem,15.4,12873,3,124
+Jerusalem,16.1,12873,3,125
+Jerusalem,21.5,13823,2,131
+Jerusalem,18.3,13270,2,132
+Jerusalem,17.5,15551,1,133
+Jerusalem,16.4,12036,2,134
+Jerusalem,16.5,13287,2,135
+Jerusalem,17.1,13877,2,136
+Jerusalem,3.9,16636,5,411
+Jerusalem,2.1,16794,5,412
+Jerusalem,4.6,15897,5,413
+Jerusalem,15.3,17591,4,421
+Jerusalem,14.1,18701,5,422
+Jerusalem,4.1,19683,5,423
+Jerusalem,6.5,17029,5,424
+Jerusalem,2.2,14466,5,425
+Jerusalem,3.3,17454,5,426
+Jerusalem,17.9,17458,4,431
+Jerusalem,6.3,18791,5,432
+Jerusalem,17.1,18548,4,433
+Jerusalem,14.6,17508,4,434
+Jerusalem,24.3,18781,3,435
+Jerusalem,0.7,27550,5,512
+Jerusalem,0.5,22396,5,513
+Jerusalem,1.4,19993,5,514
+Jerusalem,2.4,23075,5,515
+Jerusalem,2.7,25308,5,521
+Jerusalem,8.9,21720,5,522
+Jerusalem,12.8,20124,5,523
+Jerusalem,6.1,20416,5,531
+Jerusalem,2.1,22237,5,532
+Jerusalem,2.3,19650,5,533
+Jerusalem,29.2,16271,3,541
+Jerusalem,28.5,14466,4,542
+Jerusalem,11,11992,5,543
+Jerusalem,5,19455,5,812
+Jerusalem,0.8,18397,5,821
+Jerusalem,1.7,18422,5,822
+Jerusalem,1,18928,5,823
+Jerusalem,1.5,23929,5,824
+Jerusalem,1,21967,5,825
+Jerusalem,1.1,21096,5,826
+Jerusalem,3.7,22428,5,832
+Jerusalem,4.1,20857,5,833
+Jerusalem,2.9,21802,5,834
+Jerusalem,1.3,22534,5,835
+Jerusalem,3,19462,5,836
+Jerusalem,12.1,23985,5,841
+Jerusalem,6.9,21868,5,842
+Jerusalem,18.6,22222,5,843
+Jerusalem,27,27936,5,846
+Jerusalem,29.5,22995,4,847
+Jerusalem,10.4,23137,5,851
+Jerusalem,22.4,28993,4,852
+Jerusalem,14.2,23986,5,853
+Jerusalem,22.2,20884,4,854
+Jerusalem,24.4,27017,4,855
+Jerusalem,25.6,20673,4,856
+Jerusalem,26.6,22278,4,857
+Jerusalem,13.2,21848,5,858
+Jerusalem,16.8,23574,5,861
+Jerusalem,26.5,28241,5,862
+Jerusalem,36.6,28144,4,863
+Jerusalem,37,24706,4,864
+Jerusalem,1.7,19807,5,911
+Jerusalem,0.8,20408,5,912
+Jerusalem,2.3,19940,5,913
+Jerusalem,3.2,22838,5,914
+Jerusalem,3.2,23938,5,915
+Jerusalem,7,19430,5,921
+Jerusalem,12.1,23213,5,922
+Jerusalem,14.5,19962,5,923
+Jerusalem,28.9,19121,3,925
+Jerusalem,8.6,15872,4,931
+Jerusalem,7.1,18029,5,932
+Jerusalem,6.9,17945,5,933
+Jerusalem,9.9,17380,4,934
+Jerusalem,33.2,19716,3,1011
+Jerusalem,36.4,26618,1,1012
+Jerusalem,38.3,20342,2,1013
+Jerusalem,34,21372,2,1014
+Jerusalem,22.7,21884,5,1015
+Jerusalem,18.4,19765,5,1016
+Jerusalem,40.1,19755,2,1022
+Jerusalem,10.8,20002,5,1031
+Jerusalem,15.8,20943,5,1032
+Jerusalem,7.2,22611,5,1034
+Jerusalem,8.2,19507,5,1035
+Jerusalem,30.5,19115,2,1041
+Jerusalem,35.5,18229,2,1042
+Jerusalem,25.1,18948,2,1043
+Jerusalem,17.9,21781,3,1044
+Jerusalem,21.9,16368,3,1115
+Jerusalem,15.4,18047,4,1121
+Jerusalem,15,16246,5,1122
+Jerusalem,24.2,21308,4,1123
+Jerusalem,24.2,20379,4,1124
+Jerusalem,22.2,17957,3,1131
+Jerusalem,12.2,15750,4,1132
+Jerusalem,16.4,17458,2,1133
+Jerusalem,18.3,16535,2,1134
+Jerusalem,11.3,17258,4,1141
+Jerusalem,12.9,19134,4,1142
+Jerusalem,10.5,14586,4,1143
+Jerusalem,32.6,19418,1,1144
+Jerusalem,21.7,20329,1,1147
+Jerusalem,6.6,15986,4,1211
+Jerusalem,8.5,16977,4,1212
+Jerusalem,11.7,11580,3,1213
+Jerusalem,14.4,20156,3,1214
+Jerusalem,16.1,20202,3,1215
+Jerusalem,26.4,28180,3,1216
+Jerusalem,27.1,19926,3,1217
+Jerusalem,33.1,20716,4,1221
+Jerusalem,35.4,22824,3,1222
+Jerusalem,33.5,23946,3,1223
+Jerusalem,29.5,25531,3,1311
+Jerusalem,33,27584,3,1312
+Jerusalem,28.5,28526,3,1313
+Jerusalem,23.3,28798,3,1314
+Jerusalem,31,29439,4,1321
+Jerusalem,24,31868,4,1322
+Jerusalem,21.1,24586,3,1333
+Jerusalem,23.9,26268,3,1334
+Jerusalem,17.7,22223,4,1335
+Jerusalem,22,20537,4,1336
+Jerusalem,26.2,21951,2,1341
+Jerusalem,24.8,21000,4,1342
+Jerusalem,23.4,21834,2,1343
+Jerusalem,12.3,16328,4,1344
+Jerusalem,15.4,20819,4,1345
+Jerusalem,23.1,21820,3,1346
+Jerusalem,20,15748,2,1351
+Jerusalem,12.8,14977,2,1352
+Jerusalem,10.2,14024,3,1353
+Jerusalem,12.8,14794,4,1354
+Jerusalem,17.1,14423,4,1355
+Jerusalem,6.3,16547,4,1621
+Jerusalem,21.8,15741,2,1622
+Jerusalem,19.8,14639,2,1623
+Jerusalem,11.2,15367,4,1631
+Jerusalem,14.6,14464,3,1632
+Jerusalem,12.4,13820,3,1633
+Jerusalem,17.4,15876,2,1634
+Jerusalem,11,13515,3,1641
+Jerusalem,14.1,14368,3,1642
+Jerusalem,18.7,14594,2,1643
+Jerusalem,22.3,13907,1,1644
+Tel Aviv-Yafo,37.7,25015,2,113
+Tel Aviv-Yafo,33.7,22723,1,114
+Tel Aviv-Yafo,35.5,28125,1,115
+Tel Aviv-Yafo,36.5,24236,1,121
+Tel Aviv-Yafo,36,27819,1,122
+Tel Aviv-Yafo,40.5,27289,1,123
+Tel Aviv-Yafo,38.7,27775,1,124
+Tel Aviv-Yafo,43.1,22462,2,125
+Tel Aviv-Yafo,37.8,26123,1,131
+Tel Aviv-Yafo,42.5,26575,3,132
+Tel Aviv-Yafo,44.9,26812,2,133
+Tel Aviv-Yafo,38.7,32817,2,134
+Tel Aviv-Yafo,50.7,27636,1,211
+Tel Aviv-Yafo,41.6,24780,1,212
+Tel Aviv-Yafo,42.8,29772,2,213
+Tel Aviv-Yafo,41.9,23534,1,214
+Tel Aviv-Yafo,31.6,25255,2,215
+Tel Aviv-Yafo,30.3,20321,1,216
+Tel Aviv-Yafo,47.9,25876,1,222
+Tel Aviv-Yafo,40,20393,1,223
+Tel Aviv-Yafo,38.7,21583,1,224
+Tel Aviv-Yafo,20.2,20610,2,225
+Tel Aviv-Yafo,15.7,18164,4,226
+Tel Aviv-Yafo,41.7,21492,1,231
+Tel Aviv-Yafo,37.2,22461,1,232
+Tel Aviv-Yafo,34.2,27073,1,233
+Tel Aviv-Yafo,30.8,31373,2,312
+Tel Aviv-Yafo,36.3,31411,2,313
+Tel Aviv-Yafo,47.6,32407,1,314
+Tel Aviv-Yafo,48.9,29584,1,315
+Tel Aviv-Yafo,44.9,28244,1,316
+Tel Aviv-Yafo,37.5,26956,2,317
+Tel Aviv-Yafo,34.3,28672,2,321
+Tel Aviv-Yafo,40.3,32565,2,322
+Tel Aviv-Yafo,46.3,28345,2,323
+Tel Aviv-Yafo,46.6,28742,2,324
+Tel Aviv-Yafo,43.2,29435,2,325
+Tel Aviv-Yafo,35,30777,2,326
+Tel Aviv-Yafo,36.9,30881,2,333
+Tel Aviv-Yafo,32.6,27429,3,334
+Tel Aviv-Yafo,23.8,33084,3,335
+Tel Aviv-Yafo,33.3,32098,3,336
+Tel Aviv-Yafo,37.2,27375,3,337
+Tel Aviv-Yafo,42.5,22998,2,341
+Tel Aviv-Yafo,40.6,25634,2,342
+Tel Aviv-Yafo,38.2,27677,3,343
+Tel Aviv-Yafo,34,26481,2,344
+Tel Aviv-Yafo,38.8,26598,2,345
+Tel Aviv-Yafo,40.9,25541,2,346
+Tel Aviv-Yafo,43.1,27856,2,347
+Tel Aviv-Yafo,41,25553,2,348
+Tel Aviv-Yafo,45.3,25442,2,349
+Tel Aviv-Yafo,46.6,29499,1,411
+Tel Aviv-Yafo,39.6,27264,1,412
+Tel Aviv-Yafo,47.8,26981,2,413
+Tel Aviv-Yafo,51.2,30473,1,414
+Tel Aviv-Yafo,52.4,29273,1,415
+Tel Aviv-Yafo,50.6,30629,1,421
+Tel Aviv-Yafo,46.1,27946,1,422
+Tel Aviv-Yafo,40.6,29221,2,423
+Tel Aviv-Yafo,48.7,28859,2,424
+Tel Aviv-Yafo,46.8,27841,2,431
+Tel Aviv-Yafo,47.9,32926,2,432
+Tel Aviv-Yafo,47.7,28804,1,433
+Tel Aviv-Yafo,48.1,34592,2,435
+Tel Aviv-Yafo,48.6,20983,2,436
+Tel Aviv-Yafo,28.5,31603,2,437
+Tel Aviv-Yafo,20.8,27748,2,511
+Tel Aviv-Yafo,28.2,28192,3,512
+Tel Aviv-Yafo,31.4,27949,3,513
+Tel Aviv-Yafo,36.2,26145,2,514
+Tel Aviv-Yafo,42.9,27511,2,515
+Tel Aviv-Yafo,38.5,30146,2,516
+Tel Aviv-Yafo,41.5,27138,2,517
+Tel Aviv-Yafo,24,24883,3,521
+Tel Aviv-Yafo,23.2,23042,3,522
+Tel Aviv-Yafo,21.2,18305,3,523
+Tel Aviv-Yafo,23,28449,2,532
+Tel Aviv-Yafo,27.6,30849,3,533
+Tel Aviv-Yafo,25.4,27887,3,541
+Tel Aviv-Yafo,29.2,27065,3,542
+Tel Aviv-Yafo,32.1,27210,3,543
+Tel Aviv-Yafo,36,32242,2,544
+Tel Aviv-Yafo,26.2,24194,3,552
+Tel Aviv-Yafo,38.5,24356,3,554
+Tel Aviv-Yafo,40.6,27959,2,555
+Tel Aviv-Yafo,41.9,22472,2,611
+Tel Aviv-Yafo,40.2,24825,2,612
+Tel Aviv-Yafo,15.4,19920,4,711
+Tel Aviv-Yafo,22.9,23065,3,712
+Tel Aviv-Yafo,13.5,14953,4,713
+Tel Aviv-Yafo,15.3,20892,3,715
+Tel Aviv-Yafo,13.2,14983,4,721
+Tel Aviv-Yafo,20.1,33176,3,722
+Tel Aviv-Yafo,7.7,29551,4,723
+Tel Aviv-Yafo,6.7,28796,4,724
+Tel Aviv-Yafo,7.2,28666,4,725
+Tel Aviv-Yafo,19.2,21344,3,731
+Tel Aviv-Yafo,9,29020,4,732
+Tel Aviv-Yafo,9.2,29286,4,733
+Tel Aviv-Yafo,9.6,28068,4,734
+Tel Aviv-Yafo,6.8,11735,4,735
+Tel Aviv-Yafo,5.1,11264,4,736
+Tel Aviv-Yafo,6.5,13174,3,743
+Tel Aviv-Yafo,6.5,12785,3,744
+Tel Aviv-Yafo,8.6,13534,4,745
+Tel Aviv-Yafo,5.1,11131,3,746
+Tel Aviv-Yafo,7,12691,4,747
+Tel Aviv-Yafo,21.1,16661,4,811
+Tel Aviv-Yafo,28.3,22849,3,812
+Tel Aviv-Yafo,23.8,22592,3,813
+Tel Aviv-Yafo,11.4,16733,4,814
+Tel Aviv-Yafo,6.1,13856,5,815
+Tel Aviv-Yafo,4.1,12503,4,816
+Tel Aviv-Yafo,3.8,13371,4,821
+Tel Aviv-Yafo,8.4,12177,4,822
+Tel Aviv-Yafo,8.6,11946,3,823
+Tel Aviv-Yafo,6.8,15080,4,824
+Tel Aviv-Yafo,9,16841,3,826
+Tel Aviv-Yafo,9.2,13895,4,832
+Tel Aviv-Yafo,6.3,15041,4,833
+Tel Aviv-Yafo,32.2,22478,1,911
+Tel Aviv-Yafo,34.6,20219,1,912
+Tel Aviv-Yafo,27.1,22504,2,915
+Tel Aviv-Yafo,23.5,20648,2,916
+Tel Aviv-Yafo,25,19358,2,921
+Tel Aviv-Yafo,24.4,20144,2,922
+Tel Aviv-Yafo,9.8,14380,3,924
+Tel Aviv-Yafo,10.4,15844,3,925
+Tel Aviv-Yafo,15.1,18652,3,926
+Tel Aviv-Yafo,17.9,18161,3,927
+Tel Aviv-Yafo,15.9,16537,3,928
+Tel Aviv-Yafo,12.7,15396,3,929
+Tel Aviv-Yafo,6.7,11317,5,931
+Tel Aviv-Yafo,5.4,16749,4,932
+Tel Aviv-Yafo,5.9,12457,4,933
+Tel Aviv-Yafo,3.9,11861,5,934
+Tel Aviv-Yafo,3.6,13142,4,935
+Tel Aviv-Yafo,5.1,19236,4,936
+Tel Aviv-Yafo,9.3,14151,3,937
+Tel Aviv-Yafo,7.7,14006,3,941
+Tel Aviv-Yafo,12.3,16520,2,942
+Tel Aviv-Yafo,10.3,15564,3,943
+Tel Aviv-Yafo,8.3,14204,3,944
+Tel Aviv-Yafo,12.3,13838,2,945
+Tel Aviv-Yafo,13,14479,2,946
+Tel Aviv-Yafo,15.2,14673,2,947
+Haifa,5.5,10499,5,111
+Haifa,26.9,10758,3,112
+Haifa,11.5,10842,4,121
+Haifa,9,10710,4,122
+Haifa,23.5,10601,2,131
+Haifa,28.1,10678,2,132
+Haifa,22.9,10973,2,133
+Haifa,25.9,10984,1,134
+Haifa,18.2,10817,3,135
+Haifa,4,4211,5,311
+Haifa,8.3,4831,5,321
+Haifa,6.8,4578,4,331
+Haifa,7.9,4439,4,332
+Haifa,9,5635,4,333
+Haifa,14.2,6971,4,334
+Haifa,11.9,7698,4,411
+Haifa,10.1,8413,4,412
+Haifa,16.4,8489,3,413
+Haifa,10.1,7564,4,414
+Haifa,13.7,10111,4,417
+Haifa,15.3,6089,4,421
+Haifa,14.8,8911,3,422
+Haifa,13.7,9182,4,423
+Haifa,13.4,8646,4,424
+Haifa,24.4,10160,1,425
+Haifa,6.9,8147,4,426
+Haifa,9.1,9904,4,431
+Haifa,43.4,15839,1,511
+Haifa,45.1,17570,2,512
+Haifa,38.8,11980,1,513
+Haifa,37.7,14901,1,514
+Haifa,23.4,9011,2,521
+Haifa,34.5,13137,2,522
+Haifa,30.1,15366,3,523
+Haifa,39.9,15261,3,524
+Haifa,40.6,15666,1,525
+Haifa,36.1,14500,2,526
+Haifa,19.8,9013,2,527
+Haifa,29.4,11424,1,528
+Haifa,27.2,11915,1,531
+Haifa,28.4,13881,2,532
+Haifa,35.6,13964,2,533
+Haifa,20.7,7378,3,611
+Haifa,13.9,6620,4,612
+Haifa,16.8,7756,4,621
+Haifa,12.3,7900,5,622
+Haifa,17.9,9444,3,623
+Haifa,9.5,6740,5,631
+Haifa,7.2,5499,5,632
+Haifa,4.7,5244,5,633
+Haifa,5.4,4862,5,634
+Haifa,5,6224,5,641
+Haifa,4.4,7497,5,642
+Haifa,1.9,8533,5,643
+Haifa,14.4,7427,4,644
+Haifa,2.8,3991,5,711
+Haifa,10.1,6408,4,712
+Haifa,7.1,6455,5,713
+Haifa,14.6,7469,4,714
+Haifa,20.6,8605,1,715
+Haifa,28.4,10598,4,721
+Haifa,31.5,12211,4,722
+Haifa,26.1,10842,3,723
+Haifa,19.9,9085,3,731
+Haifa,23.7,9855,3,732
+Haifa,18.5,9435,3,733
+Haifa,32.7,12258,4,811
+Haifa,45.2,13240,1,813
+Haifa,29.7,11207,3,821
+Haifa,38.3,11974,2,822
+Haifa,42.4,14139,1,823
+Haifa,39.5,12126,1,824
+Haifa,32.2,11637,2,911
+Haifa,36.7,11208,1,912
+Haifa,43.2,14065,1,921
+Haifa,43.4,15945,2,922
+Haifa,37.1,12921,1,931
+Haifa,44.4,14400,1,932
+Haifa,39.8,12292,1,933
+Haifa,38.2,13091,1,934
+Haifa,40.6,16721,1,941
+Haifa,41.1,15131,1,942
+Haifa,44.8,14926,1,943
+Haifa,39,17337,1,944
+Rishon LeZiyyon,27.4,15092,1,113
+Rishon LeZiyyon,14.1,11108,1,114
+Rishon LeZiyyon,11.9,13105,2,115
+Rishon LeZiyyon,12.7,11784,2,116
+Rishon LeZiyyon,16.3,13355,3,117
+Rishon LeZiyyon,14.6,12362,3,121
+Rishon LeZiyyon,15,12464,3,122
+Rishon LeZiyyon,13.9,11759,2,123
+Rishon LeZiyyon,18,11058,1,124
+Rishon LeZiyyon,14.8,13602,2,125
+Rishon LeZiyyon,17,12389,2,126
+Rishon LeZiyyon,16,11528,2,211
+Rishon LeZiyyon,11.7,13296,2,212
+Rishon LeZiyyon,13,14280,2,213
+Rishon LeZiyyon,26.4,14218,1,214
+Rishon LeZiyyon,25.6,13075,1,215
+Rishon LeZiyyon,18.9,12313,1,221
+Rishon LeZiyyon,18.8,13203,2,222
+Rishon LeZiyyon,25.4,15630,1,223
+Rishon LeZiyyon,23.3,12944,1,224
+Rishon LeZiyyon,19.3,12818,2,225
+Rishon LeZiyyon,13.5,15632,2,311
+Rishon LeZiyyon,21.1,11883,1,312
+Rishon LeZiyyon,19.8,13883,1,313
+Rishon LeZiyyon,18.1,13213,2,314
+Rishon LeZiyyon,15.5,13998,3,315
+Rishon LeZiyyon,31.6,12457,1,411
+Rishon LeZiyyon,26.8,14202,1,412
+Rishon LeZiyyon,21.8,13258,2,413
+Rishon LeZiyyon,20.7,12521,2,421
+Rishon LeZiyyon,21.1,12997,2,422
+Rishon LeZiyyon,24.1,12602,1,423
+Rishon LeZiyyon,25.9,15355,1,424
+Rishon LeZiyyon,17.9,13501,2,425
+Rishon LeZiyyon,21.1,13976,2,426
+Rishon LeZiyyon,4.1,11612,4,511
+Rishon LeZiyyon,6.5,12165,3,512
+Rishon LeZiyyon,6.7,11750,4,513
+Rishon LeZiyyon,23.2,12468,1,514
+Rishon LeZiyyon,22.7,15289,1,515
+Rishon LeZiyyon,25.1,15172,1,516
+Rishon LeZiyyon,20.3,14800,1,521
+Rishon LeZiyyon,18.8,14467,1,522
+Rishon LeZiyyon,18.4,13652,1,523
+Rishon LeZiyyon,17.9,13616,1,524
+Rishon LeZiyyon,21.7,14957,1,531
+Rishon LeZiyyon,21.2,14476,1,532
+Rishon LeZiyyon,21.3,16106,1,533
+Rishon LeZiyyon,20.5,16707,1,534
+Rishon LeZiyyon,27.1,18189,1,611
+Rishon LeZiyyon,26.6,17621,1,612
+Rishon LeZiyyon,22.8,14314,1,614
+Rishon LeZiyyon,19.6,16377,1,615
+Rishon LeZiyyon,20.2,16183,1,616
+Rishon LeZiyyon,20.6,15567,1,617
+Rishon LeZiyyon,17.9,13725,2,623
+Rishon LeZiyyon,13.2,13105,1,624
+Rishon LeZiyyon,18.2,16755,2,625
+Ashdod,9.5,11812,4,122
+Ashdod,7.7,10995,4,123
+Ashdod,4.7,10289,4,125
+Ashdod,6.5,11296,4,126
+Ashdod,6.6,9999,4,131
+Ashdod,4.2,11105,5,132
+Ashdod,4.6,9819,4,133
+Ashdod,1.7,10379,5,141
+Ashdod,2.5,10175,5,142
+Ashdod,3.9,9611,5,143
+Ashdod,4.4,10850,5,144
+Ashdod,1.5,10434,5,211
+Ashdod,1,10480,5,212
+Ashdod,3.8,11440,5,221
+Ashdod,4.5,9679,4,222
+Ashdod,5.4,10092,5,223
+Ashdod,10,9456,3,231
+Ashdod,11.3,10905,2,232
+Ashdod,12.1,10652,2,233
+Ashdod,8.5,9086,4,234
+Ashdod,10.6,9270,3,241
+Ashdod,7.3,10307,4,242
+Ashdod,14.1,9922,3,243
+Ashdod,17.1,10495,3,244
+Ashdod,14.4,14098,3,311
+Ashdod,19.9,10403,3,312
+Ashdod,16.8,10331,3,314
+Ashdod,15.1,10290,2,315
+Ashdod,16,10654,2,316
+Ashdod,13.6,11095,2,317
+Ashdod,10.4,10289,3,321
+Ashdod,2,9703,5,322
+Ashdod,7.7,10294,4,323
+Ashdod,12.6,9650,2,331
+Ashdod,15.1,8961,1,332
+Ashdod,14.7,10059,3,333
+Ashdod,13.3,11668,2,342
+Ashdod,13.5,11437,2,343
+Ashdod,14.5,11849,2,411
+Ashdod,14,10620,1,412
+Ashdod,14.7,13146,2,413
+Ashdod,24.8,10076,1,415
+Ashdod,15.6,11574,2,421
+Ashdod,17.8,11268,2,422
+Ashdod,15.5,11271,3,423
+Ashdod,13.2,11271,2,424
+Ashdod,14.4,11482,3,425
+Ashdod,18.1,11899,3,426
+Ashdod,22.5,11534,1,432
+Ashdod,20.3,12211,2,433
+Ashdod,23.5,11399,1,434
+Petah Tiqwa,14.1,13650,2,112
+Petah Tiqwa,23.7,14414,2,113
+Petah Tiqwa,12.8,13371,3,114
+Petah Tiqwa,30.6,14185,1,115
+Petah Tiqwa,45.2,14340,1,121
+Petah Tiqwa,38.2,14565,1,122
+Petah Tiqwa,37.6,15022,1,123
+Petah Tiqwa,15.9,13837,2,127
+Petah Tiqwa,32.9,14186,1,131
+Petah Tiqwa,12.2,15600,3,132
+Petah Tiqwa,21.3,13649,1,133
+Petah Tiqwa,16.9,15391,2,134
+Petah Tiqwa,21.3,12333,3,141
+Petah Tiqwa,14.9,13096,3,142
+Petah Tiqwa,17.8,14361,3,143
+Petah Tiqwa,13.2,14868,3,144
+Petah Tiqwa,14.2,12471,3,145
+Petah Tiqwa,10.9,12723,3,146
+Petah Tiqwa,42,17132,1,211
+Petah Tiqwa,45.1,16813,1,212
+Petah Tiqwa,34.6,13167,1,213
+Petah Tiqwa,35.2,13790,1,221
+Petah Tiqwa,22.9,13337,2,222
+Petah Tiqwa,33.7,13965,1,223
+Petah Tiqwa,27.9,13561,1,224
+Petah Tiqwa,26.4,13966,2,231
+Petah Tiqwa,20.4,14468,2,232
+Petah Tiqwa,22.4,13313,2,233
+Petah Tiqwa,16.3,13331,3,234
+Petah Tiqwa,20,12982,3,235
+Petah Tiqwa,19.6,12388,3,236
+Petah Tiqwa,10.2,13082,4,311
+Petah Tiqwa,9.5,12979,3,312
+Petah Tiqwa,11.1,13027,3,313
+Petah Tiqwa,14.8,13740,2,321
+Petah Tiqwa,13.5,12802,3,322
+Petah Tiqwa,16.9,12939,3,323
+Petah Tiqwa,21.7,13718,1,324
+Petah Tiqwa,24.3,12249,2,411
+Petah Tiqwa,10.9,12705,3,412
+Petah Tiqwa,11.9,14021,2,413
+Petah Tiqwa,9.7,13041,3,414
+Petah Tiqwa,9.9,11723,3,415
+Petah Tiqwa,9.9,15273,3,421
+Petah Tiqwa,20.9,13477,1,422
+Petah Tiqwa,14.3,12730,2,423
+Petah Tiqwa,18.8,13772,1,424
+Petah Tiqwa,14.1,16424,2,431
+Petah Tiqwa,14.9,13082,2,432
+Petah Tiqwa,15.3,12745,2,433
+Petah Tiqwa,25.5,12692,3,434
+Petah Tiqwa,30.4,12403,2,511
+Petah Tiqwa,18.6,13363,4,512
+Petah Tiqwa,5.7,10373,4,513
+Petah Tiqwa,17.9,12767,3,514
+Petah Tiqwa,7.6,13761,3,515
+Petah Tiqwa,22.6,12206,1,516
+Petah Tiqwa,32.2,13032,1,521
+Petah Tiqwa,32.5,12823,2,522
+Petah Tiqwa,11.3,12452,5,523
+Petah Tiqwa,9.5,12433,4,524
+Be'er Sheva,7,6476,5,111
+Be'er Sheva,3.9,4519,5,112
+Be'er Sheva,4,5212,5,113
+Be'er Sheva,7.1,7397,5,121
+Be'er Sheva,10.6,7914,5,122
+Be'er Sheva,10.9,8559,5,123
+Be'er Sheva,14.5,7348,4,131
+Be'er Sheva,5.4,7664,5,132
+Be'er Sheva,10.8,7931,5,133
+Be'er Sheva,15.6,5898,4,211
+Be'er Sheva,9.9,5670,4,212
+Be'er Sheva,11.2,7278,4,213
+Be'er Sheva,11.6,7691,3,214
+Be'er Sheva,10.7,5434,4,215
+Be'er Sheva,6,5753,5,216
+Be'er Sheva,7.2,5781,4,221
+Be'er Sheva,7.8,5468,4,222
+Be'er Sheva,11.4,6094,3,223
+Be'er Sheva,11.8,6039,3,224
+Be'er Sheva,10.1,6855,3,225
+Be'er Sheva,12.4,5681,4,226
+Be'er Sheva,17.1,7249,1,234
+Be'er Sheva,13.6,7528,2,311
+Be'er Sheva,13.5,7305,3,312
+Be'er Sheva,14,7381,2,313
+Be'er Sheva,21.1,8752,1,411
+Be'er Sheva,14.7,7456,3,412
+Be'er Sheva,14.8,7746,3,413
+Be'er Sheva,18.4,8232,2,414
+Be'er Sheva,21.6,7757,2,415
+Be'er Sheva,23.7,8186,1,421
+Be'er Sheva,19.4,7026,2,422
+Be'er Sheva,15.4,6530,3,423
+Be'er Sheva,17.6,6026,4,431
+Be'er Sheva,13.6,5976,4,432
+Be'er Sheva,7.4,5578,5,433
+Be'er Sheva,9.8,6765,4,434
+Be'er Sheva,8.3,5346,5,511
+Be'er Sheva,11.3,7830,4,512
+Be'er Sheva,24.7,8472,4,513
+Be'er Sheva,10.7,7695,4,521
+Be'er Sheva,9.2,6696,4,522
+Be'er Sheva,8.6,6710,4,523
+Be'er Sheva,19.1,6969,3,611
+Be'er Sheva,11.4,8349,4,612
+Be'er Sheva,21.6,7731,1,613
+Be'er Sheva,8.5,8836,4,614
+Be'er Sheva,9.7,7162,4,631
+Be'er Sheva,8.2,6759,5,632
+Be'er Sheva,7.3,7161,5,633
+Be'er Sheva,17.1,7305,2,641
+Be'er Sheva,23.4,8482,2,642
+Be'er Sheva,30.6,8356,1,643
+Be'er Sheva,29,6447,1,644
+Be'er Sheva,28.3,8322,1,645
+Netanya,20.2,11704,2,111
+Netanya,13.2,11257,3,112
+Netanya,8,8983,4,113
+Netanya,25.3,12215,3,114
+Netanya,37.5,12347,1,115
+Netanya,6.7,10477,4,211
+Netanya,6.9,9808,4,212
+Netanya,16.1,11597,3,213
+Netanya,13.4,12301,4,221
+Netanya,13.7,11540,3,222
+Netanya,4.5,10109,5,223
+Netanya,11.6,12459,3,231
+Netanya,12.3,12086,4,232
+Netanya,12.8,12212,4,233
+Netanya,13.1,11203,3,241
+Netanya,16.3,10940,3,242
+Netanya,14.2,12057,3,243
+Netanya,7,9832,4,311
+Netanya,7.7,11251,4,312
+Netanya,9.6,11530,4,313
+Netanya,14.9,13142,4,321
+Netanya,9.6,14426,4,322
+Netanya,13.4,12648,4,323
+Netanya,10.1,11676,4,324
+Netanya,14.3,12423,4,331
+Netanya,15.5,11611,3,332
+Netanya,15.5,11977,4,333
+Netanya,14,13270,3,334
+Netanya,16.5,12858,3,341
+Netanya,17.8,11966,2,342
+Netanya,14,11406,3,343
+Netanya,14.6,11591,3,351
+Netanya,10,11251,4,352
+Netanya,15.5,11675,3,353
+Netanya,17.9,12661,2,354
+Netanya,14.9,11643,4,355
+Netanya,20.9,10588,1,411
+Netanya,22.4,15607,3,412
+Netanya,19.2,13125,2,413
+Netanya,8.4,10169,4,421
+Netanya,5.8,9738,4,422
+Netanya,3.8,9863,4,431
+Netanya,6.6,10659,4,432
+Netanya,9.4,10788,3,511
+Netanya,5,10860,4,512
+Netanya,12.3,10087,2,513
+Netanya,7.7,9821,3,521
+Netanya,6.2,9816,3,522
+Netanya,15.8,11880,1,523
+Netanya,34.8,16622,2,531
+Netanya,27.2,11583,1,532
+Netanya,33.2,14613,1,533
+Netanya,27.1,11216,1,534
+Holon,0,10609,4,114
+Holon,14,13795,2,211
+Holon,11.7,13333,3,212
+Holon,15.3,13640,2,213
+Holon,19.5,13648,1,214
+Holon,12.7,12601,3,215
+Holon,15.3,13994,3,216
+Holon,19.9,13114,1,221
+Holon,18.9,13036,2,222
+Holon,13.8,13572,3,223
+Holon,17.2,13567,1,224
+Holon,14.2,12872,2,225
+Holon,18.7,14127,2,311
+Holon,24.7,14725,1,312
+Holon,17.8,15102,2,313
+Holon,16.8,15081,3,314
+Holon,18.3,15239,2,321
+Holon,24,14929,2,322
+Holon,20.5,15244,2,323
+Holon,16.4,15112,3,324
+Holon,12.9,14474,3,331
+Holon,14.7,14887,3,332
+Holon,17.6,15824,3,333
+Holon,20.1,14692,2,334
+Holon,17.2,15673,2,335
+Holon,12.4,15878,3,411
+Holon,18.7,16424,2,412
+Holon,21.7,15299,1,413
+Holon,24.9,17975,1,414
+Holon,24.6,15116,1,415
+Holon,24.4,16750,1,416
+Holon,20.6,15600,1,422
+Holon,17,15190,1,423
+Holon,15.9,12968,1,424
+Holon,17.5,15264,1,425
+Holon,18.2,15550,1,426
+Holon,15.3,15698,1,427
+Holon,5.2,14704,4,512
+Holon,11,14835,2,513
+Holon,8.2,16589,4,514
+Holon,12.7,13518,3,521
+Holon,18.4,14061,1,522
+Holon,13.4,14407,3,523
+Holon,14.8,14865,2,611
+Holon,13.6,13993,3,612
+Holon,11.7,13663,3,613
+Holon,12.6,14705,3,614
+Holon,7.2,13933,3,615
+Holon,6,14161,4,621
+Holon,9.2,14396,3,622
+Holon,12.4,13942,3,623
+Holon,12.7,12910,3,624
+Holon,14.5,13721,2,625
+Holon,9.4,14378,3,626
+Bene Beraq,2.3,14178,5,112
+Bene Beraq,7.1,12610,5,113
+Bene Beraq,6.5,13001,5,114
+Bene Beraq,5.5,13686,5,115
+Bene Beraq,9.2,15247,4,117
+Bene Beraq,7.5,13633,4,121
+Bene Beraq,4.3,15281,5,122
+Bene Beraq,5.4,14618,5,123
+Bene Beraq,2.9,17440,5,211
+Bene Beraq,2.6,17474,5,212
+Bene Beraq,1.4,18577,5,213
+Bene Beraq,1.6,15730,5,214
+Bene Beraq,2.5,16722,5,221
+Bene Beraq,3.3,16661,5,222
+Bene Beraq,3.4,17402,5,223
+Bene Beraq,13.9,15756,4,231
+Bene Beraq,11,16998,5,232
+Bene Beraq,5.2,16726,5,233
+Bene Beraq,5.9,16310,5,311
+Bene Beraq,1.2,17467,5,312
+Bene Beraq,2,17201,5,313
+Bene Beraq,10.1,18145,5,314
+Bene Beraq,9.6,17049,5,315
+Bene Beraq,1.3,17196,5,321
+Bene Beraq,0.7,20440,5,322
+Bene Beraq,1.6,17181,5,323
+Bene Beraq,4.1,17325,5,411
+Bene Beraq,2.4,15029,5,412
+Bene Beraq,1.8,15665,5,413
+Bene Beraq,2.7,15211,5,414
+Bene Beraq,1.4,15494,5,415
+Bene Beraq,1.3,16397,5,422
+Bene Beraq,0.5,13170,5,423
+Bene Beraq,1.9,16575,5,424
+Bene Beraq,2.3,14784,5,425
+Bene Beraq,3.6,14503,5,426
+Bene Beraq,0.4,15283,5,427
+Ramat Gan,35.8,26567,1,112
+Ramat Gan,24.3,19970,1,113
+Ramat Gan,22.5,19485,2,114
+Ramat Gan,22.4,16024,3,115
+Ramat Gan,29.7,19168,2,116
+Ramat Gan,29.7,18573,2,121
+Ramat Gan,38.4,22943,1,122
+Ramat Gan,37.8,20506,1,123
+Ramat Gan,25.1,28712,2,124
+Ramat Gan,33.8,23845,1,125
+Ramat Gan,41.9,21390,1,131
+Ramat Gan,34.5,17979,1,132
+Ramat Gan,29.5,19120,2,133
+Ramat Gan,25.4,18071,2,134
+Ramat Gan,22,16274,2,135
+Ramat Gan,26.8,17841,2,136
+Ramat Gan,23.2,16637,3,137
+Ramat Gan,27,18602,2,138
+Ramat Gan,22.8,17950,3,211
+Ramat Gan,24.1,17006,2,212
+Ramat Gan,26.9,18496,2,213
+Ramat Gan,25.1,17991,2,214
+Ramat Gan,24.4,18549,2,215
+Ramat Gan,24.7,17602,2,216
+Ramat Gan,21.7,17666,2,221
+Ramat Gan,30,18970,1,222
+Ramat Gan,27.8,19767,2,223
+Ramat Gan,30.2,17870,2,224
+Ramat Gan,27.6,17766,2,225
+Ramat Gan,27.2,17469,1,311
+Ramat Gan,32.4,19076,1,312
+Ramat Gan,25.2,21152,2,313
+Ramat Gan,21.4,15568,2,314
+Ramat Gan,20.4,19088,3,321
+Ramat Gan,20,16094,3,322
+Ramat Gan,31.2,17230,1,324
+Ramat Gan,20.5,17723,2,325
+Ramat Gan,11.2,16876,3,412
+Ramat Gan,36.3,15561,1,414
+Ramat Gan,37.4,14247,1,416
+Ramat Gan,37,15135,1,417
+Bat Yam,8.6,14748,4,111
+Bat Yam,7.3,12914,4,112
+Bat Yam,6.9,13097,4,113
+Bat Yam,9.7,13638,4,114
+Bat Yam,9.3,14021,4,115
+Bat Yam,7.8,13523,3,212
+Bat Yam,10.4,16515,3,213
+Bat Yam,11.2,12915,3,214
+Bat Yam,9.7,13580,3,215
+Bat Yam,8,12437,3,221
+Bat Yam,9.4,13499,3,222
+Bat Yam,8,13535,3,223
+Bat Yam,8.1,13557,3,224
+Bat Yam,8.4,13366,3,225
+Bat Yam,13.8,13247,2,226
+Bat Yam,5.4,16225,3,227
+Bat Yam,2.4,15103,5,228
+Bat Yam,10.5,13946,3,311
+Bat Yam,10.6,13394,3,312
+Bat Yam,9.1,13459,3,313
+Bat Yam,10.2,12985,3,314
+Bat Yam,11.8,14592,3,315
+Bat Yam,10.4,13407,3,316
+Bat Yam,7.3,13169,4,321
+Bat Yam,10.5,14216,4,322
+Bat Yam,9.3,13213,4,411
+Bat Yam,6.8,13983,4,412
+Bat Yam,5,15198,4,413
+Bat Yam,6.5,13321,4,421
+Bat Yam,7.5,12017,4,422
+Bat Yam,9.6,14367,3,423
+Bat Yam,10.6,13076,3,511
+Bat Yam,11.9,14378,2,512
+Bat Yam,11.3,12088,2,513
+Bat Yam,9.5,12490,3,514
+Bat Yam,12,12016,2,521
+Bat Yam,11.1,12509,3,522
+Bat Yam,13.1,14641,2,523
+Rehovot,55,15576,1,112
+Rehovot,37.1,13146,2,113
+Rehovot,38.8,13153,2,114
+Rehovot,32.7,12983,2,115
+Rehovot,27.2,11761,2,116
+Rehovot,15.9,11648,4,117
+Rehovot,21.3,11426,3,121
+Rehovot,31.8,11810,2,122
+Rehovot,54.8,14460,1,123
+Rehovot,21.4,11927,3,124
+Rehovot,24.2,14394,4,211
+Rehovot,11.1,10997,4,212
+Rehovot,29,12993,1,213
+Rehovot,33.8,13213,1,214
+Rehovot,36.5,11417,1,221
+Rehovot,9.4,11691,4,222
+Rehovot,13.8,9822,3,231
+Rehovot,14.1,10980,4,232
+Rehovot,33.9,13695,1,311
+Rehovot,30.3,12466,1,312
+Rehovot,14.5,8361,3,313
+Rehovot,14.4,11931,3,321
+Rehovot,16.6,12777,2,322
+Rehovot,18.3,11831,3,411
+Rehovot,23.1,12233,3,412
+Rehovot,29.5,12690,2,413
+Rehovot,32.2,12749,2,414
+Rehovot,34.2,13239,2,421
+Rehovot,37.5,12964,1,422
+Rehovot,40,13112,1,424
+Rehovot,12.5,9993,3,425
+Rehovot,21.9,15541,2,431
+Rehovot,3.8,7668,4,432
+Rehovot,21.4,11579,2,433
+Ashqelon,23.9,8789,2,111
+Ashqelon,26.2,8264,1,112
+Ashqelon,21.1,7694,3,113
+Ashqelon,19.3,7368,3,114
+Ashqelon,8.5,11917,5,121
+Ashqelon,18.8,9039,3,122
+Ashqelon,23.3,8091,2,123
+Ashqelon,21.8,8455,2,124
+Ashqelon,20.1,7395,3,125
+Ashqelon,15.7,7597,3,126
+Ashqelon,16.5,6495,3,127
+Ashqelon,13,7628,3,211
+Ashqelon,16.4,9112,3,212
+Ashqelon,12.6,9013,3,213
+Ashqelon,10.6,9275,3,214
+Ashqelon,14.4,9501,2,215
+Ashqelon,11.7,7592,3,221
+Ashqelon,6.9,8669,4,222
+Ashqelon,7.1,5318,4,223
+Ashqelon,11.5,8114,4,225
+Ashqelon,10.4,8435,4,226
+Ashqelon,10,7862,3,311
+Ashqelon,4,7177,5,313
+Ashqelon,5.4,6511,5,314
+Ashqelon,3.9,8128,5,315
+Ashqelon,6,7897,5,316
+Ashqelon,9.2,6535,4,321
+Ashqelon,5.2,5788,5,322
+Ashqelon,6.5,6694,4,323
